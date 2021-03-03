@@ -41,14 +41,14 @@ def matrix_multiplication(matrix_1,matrix_2):
 def working_numbers_set(input_list):
     return set(input_list)
 
-if __name__=="__main__":
+if __name__=="__main__":#string max length
     list_1=["hello","grape","hi","world","outsider"]
     print(f"The Original List is: {list_1}")
     string_1=string_max_length(list_1)
     print(f"The Longest String in the List is: {string_1}")
     pass
 
-'''
+
 
 if __name__=="__main__":#working numbers set
     list_1=[14,23,14,89,98,23,23,89,98]
@@ -57,4 +57,3 @@ if __name__=="__main__":#working numbers set
     print(f"List with Duplicates Removed: {new_list}")
     pass
 
-'''
